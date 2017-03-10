@@ -60,6 +60,10 @@ var LessonThreeJS = function(){
   }
 
   function render() {
+    // sphereMesh.rotation.x += 0.003;
+    sphereMesh.rotation.y += 0.001;
+    // gridHelper.rotation.x += 0.001; 
+
     cameraController.update();
     renderer.render(scene,camera);
     requestAnimationFrame(render)
