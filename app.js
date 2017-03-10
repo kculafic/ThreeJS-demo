@@ -3,16 +3,14 @@ function Log(arg) {
   console.log(arg);
 };
 
-
 var LessonThreeJS = function(){
   var me = this;
 
   var scene,
       renderer,
       camera,
-      cameraController;
-
-  var container,
+      cameraController,
+      container,
       light,
       sphereGeom,
       sphereMesh,
